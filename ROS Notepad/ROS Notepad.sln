@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ROS Notepad", "ROS Notepad\ROS Notepad.vbproj", "{D14A92E3-4022-422C-B732-635D61D61BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14A92E3-4022-422C-B732-635D61D61BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14A92E3-4022-422C-B732-635D61D61BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14A92E3-4022-422C-B732-635D61D61BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14A92E3-4022-422C-B732-635D61D61BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87044D01-76B1-44CE-93B0-6A32146FF546}
+	EndGlobalSection
+EndGlobal
