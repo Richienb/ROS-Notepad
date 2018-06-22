@@ -50,12 +50,12 @@ Partial Class Form1
         Me.ItalicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UnderlineToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StrikethroughToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MaterialProgressBar1 = New MaterialSkin.Controls.MaterialProgressBar()
         Me.AlignToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AlightToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AlignCenterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AlignRightToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AlignJustifyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MaterialProgressBar1 = New MaterialSkin.Controls.MaterialProgressBar()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -93,72 +93,72 @@ Partial Class Form1
         '
         Me.NewToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.file
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.open
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.OpenToolStripMenuItem.Text = "Open"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.save
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
         'SaveAsToolStripMenuItem
         '
         Me.SaveAsToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.save_as
         Me.SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.SaveAsToolStripMenuItem.Text = "Save As"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(162, 6)
         '
         'PrintToolStripMenuItem
         '
         Me.PrintToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.print
         Me.PrintToolStripMenuItem.Name = "PrintToolStripMenuItem"
-        Me.PrintToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.PrintToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.PrintToolStripMenuItem.Text = "Print"
         '
         'PageSetupToolStripMenuItem
         '
         Me.PageSetupToolStripMenuItem.Name = "PageSetupToolStripMenuItem"
-        Me.PageSetupToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.PageSetupToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.PageSetupToolStripMenuItem.Text = "Page Setup"
         '
         'SendToolStripMenuItem
         '
         Me.SendToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.send
         Me.SendToolStripMenuItem.Name = "SendToolStripMenuItem"
-        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.SendToolStripMenuItem.Text = "Send"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(162, 6)
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.info
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.delete
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(165, 24)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'EditToolStripMenuItem
@@ -172,14 +172,14 @@ Partial Class Form1
         '
         Me.UndoToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.undo
         Me.UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
-        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(118, 24)
         Me.UndoToolStripMenuItem.Text = "Undo"
         '
         'RedoToolStripMenuItem
         '
         Me.RedoToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.redo
         Me.RedoToolStripMenuItem.Name = "RedoToolStripMenuItem"
-        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(118, 24)
         Me.RedoToolStripMenuItem.Text = "Redo"
         '
         'ClipboardToolStripMenuItem
@@ -193,28 +193,28 @@ Partial Class Form1
         '
         Me.CopyToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.copy
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(148, 24)
         Me.CopyToolStripMenuItem.Text = "Copy"
         '
         'CutToolStripMenuItem
         '
         Me.CutToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.cut
         Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(148, 24)
         Me.CutToolStripMenuItem.Text = "Cut"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.paste
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(148, 24)
         Me.PasteToolStripMenuItem.Text = "Paste"
         '
         'SelectAllToolStripMenuItem
         '
         Me.SelectAllToolStripMenuItem.Image = Global.ROS_Notepad.My.Resources.Resources.select_all
         Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
-        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(148, 24)
         Me.SelectAllToolStripMenuItem.Text = "Select All"
         '
         'FontToolStripMenuItem
@@ -258,17 +258,6 @@ Partial Class Form1
         Me.StrikethroughToolStripMenuItem.Size = New System.Drawing.Size(181, 24)
         Me.StrikethroughToolStripMenuItem.Text = "Strikethrough"
         '
-        'MaterialProgressBar1
-        '
-        Me.MaterialProgressBar1.Depth = 0
-        Me.MaterialProgressBar1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.MaterialProgressBar1.Location = New System.Drawing.Point(0, 456)
-        Me.MaterialProgressBar1.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialProgressBar1.Name = "MaterialProgressBar1"
-        Me.MaterialProgressBar1.Size = New System.Drawing.Size(734, 5)
-        Me.MaterialProgressBar1.TabIndex = 2
-        Me.MaterialProgressBar1.Visible = False
-        '
         'AlignToolStripMenuItem
         '
         Me.AlignToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AlightToolStripMenuItem, Me.AlignCenterToolStripMenuItem, Me.AlignRightToolStripMenuItem, Me.AlignJustifyToolStripMenuItem})
@@ -299,6 +288,17 @@ Partial Class Form1
         Me.AlignJustifyToolStripMenuItem.Name = "AlignJustifyToolStripMenuItem"
         Me.AlignJustifyToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
         Me.AlignJustifyToolStripMenuItem.Text = "Justify"
+        '
+        'MaterialProgressBar1
+        '
+        Me.MaterialProgressBar1.Depth = 0
+        Me.MaterialProgressBar1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.MaterialProgressBar1.Location = New System.Drawing.Point(0, 456)
+        Me.MaterialProgressBar1.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialProgressBar1.Name = "MaterialProgressBar1"
+        Me.MaterialProgressBar1.Size = New System.Drawing.Size(734, 5)
+        Me.MaterialProgressBar1.TabIndex = 2
+        Me.MaterialProgressBar1.Visible = False
         '
         'Form1
         '

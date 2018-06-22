@@ -46,4 +46,16 @@
     Private Sub StrikethroughToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StrikethroughToolStripMenuItem.Click
         RichTextBox1.SelectionFont = New Font(RichTextBox1.Font, FontStyle.Strikeout)
     End Sub
+
+    Private Sub AlightToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlightToolStripMenuItem.Click
+        RichTextBox1.SelectionAlignment = HorizontalAlignment.Left
+    End Sub
+
+    Private Sub AlignCenterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlignCenterToolStripMenuItem.Click
+        RichTextBox1.SelectionAlignment = HorizontalAlignment.Center
+    End Sub
+
+    Private Sub AlignRightToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlignRightToolStripMenuItem.Click
+        RichTextBox1.SelectionAlignment = HorizontalAlignment.Right
+    End Sub
 End Class
