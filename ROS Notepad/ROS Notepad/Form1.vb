@@ -31,10 +31,6 @@
         RichTextBox1.Redo()
     End Sub
 
-    Private Sub BoldToolStripMenuItem_Click(sender As Object, e As Evs) Handles BoldToolStripMenuItem.Click
-        RichTextBox1.SelectionFont = New Font(RichTextBox1.Font, FontStyle.Bold)
-    End Sub
-
     Private Sub ItalicToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItalicToolStripMenuItem.Click
         RichTextBox1.SelectionFont = New Font(RichTextBox1.Font, FontStyle.Italic)
     End Sub
@@ -60,6 +56,6 @@
     End Sub
 
     Private Sub BoldToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BoldToolStripMenuItem.Click
-
+        RichTextBox1.SelectionFont = New Font(RichTextBox1.Font, FontStyle.Bold)
     End Sub
 End Class
