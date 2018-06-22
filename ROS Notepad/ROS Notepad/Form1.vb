@@ -58,4 +58,8 @@
     Private Sub AlignRightToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlignRightToolStripMenuItem.Click
         RichTextBox1.SelectionAlignment = HorizontalAlignment.Right
     End Sub
+
+    Private Sub BoldToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BoldToolStripMenuItem.Click
+
+    End Sub
 End Class

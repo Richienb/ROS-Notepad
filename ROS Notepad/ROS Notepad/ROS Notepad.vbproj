@@ -182,5 +182,17 @@
   <ItemGroup>
     <None Include="Resources\undo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-justify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-right.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
